@@ -1,0 +1,9 @@
+Konu: Kısa video hikaye yapısı
+
+Giriş: Kısa videoda net bir başlangıç, orta ve kapanış olmalı.
+
+1) Hook (0-3s): İzleyiciyi yakalayacak bir soru veya iddia.
+2) Değer (3-40s): 2-3 hızlı bilgi/veri/örnek ver.
+3) Kapanış (son 3s): Özet + CTA.
+
+Kapanış: Hook'un güçlü olsun; izleyici durursa videoyu sonuna kadar izler. Beğen ve abone ol!
