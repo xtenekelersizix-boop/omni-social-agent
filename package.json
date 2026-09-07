@@ -1,0 +1,16 @@
+{
+  "name": "omni-social-agent",
+  "version": "0.1.0",
+  "description": "POC: automated short video generation pipeline (LLM -> TTS -> images -> ffmpeg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/generate_and_render.js --topic \"deneme\""
+  },
+  "author": "xtenekelersizix-boop",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.7",
+    "minimist": "^1.2.8"
+  }
+}

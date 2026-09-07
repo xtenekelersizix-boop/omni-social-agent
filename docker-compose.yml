@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/usr/src/app
+      - ./out:/usr/src/app/out
+    environment:
+      - NODE_ENV=development
+    command: node scripts/generate_and_render.js --topic "günlük pazarlama tüyosu #1"
+  ffmpeg:
+    image: jrottenberg/ffmpeg:5.1-scratch
+    entrypoint: ["sleep", "infinity"]
+    volumes:
+      - ./:/workspace
